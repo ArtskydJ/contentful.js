@@ -130,7 +130,7 @@ const client = contentful.createClient({
 // get entries without link resolution (previously `resolveLinks: false`)
 const entries = client.withoutLinkResolution.getEntries()
 
-// get entries without unresolvable links (previoulsy `removeUnresolved: true`)
+// get entries without unresolvable links (previously `removeUnresolved: true`)
 const entries = client.withoutUnresolvableLinks.getEntries()
 ```
 
